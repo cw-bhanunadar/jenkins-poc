@@ -1,6 +1,6 @@
 version: '3'
 services:
   web:
-    image: public.ecr.aws/v2a8e2g9/upgrad/tasks:latest
+    image: public.ecr.aws/v2a8e2g9/upgrad/tasks:${BUILD_NUMBER}
     ports:
       - "8080:80"
