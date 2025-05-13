@@ -3,4 +3,4 @@ services:
   web:
     image: public.ecr.aws/v2a8e2g9/upgrad/tasks:latest
     ports:
-      - "8080:9000"
+      - "8080:80"
