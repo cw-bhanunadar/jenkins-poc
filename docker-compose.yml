@@ -3,4 +3,4 @@ services:
   web:
     image: 571600855600.dkr.ecr.us-east-1.amazonaws.com/upgrad/tasks:${BUILD_NUMBER}
     ports:
-      - "8080:80"
+      - "80:80"
