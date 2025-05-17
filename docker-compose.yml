@@ -1,6 +1,6 @@
 version: '3'
 services:
   web:
-    image: 571600855600.dkr.ecr.us-east-1.amazonaws.com/upgrad/jenkins:${BUILD_NUMBER}
+    image: 977098996258.dkr.ecr.us-east-1.amazonaws.com/upgrad/jenkins:${BUILD_NUMBER}
     ports:
       - "80:80"
